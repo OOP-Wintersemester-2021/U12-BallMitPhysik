@@ -3,7 +3,9 @@
 Erstellen Sie eine `GraphicsApp`, die einen Ball von links nach rechts
 über die Zeichenfläche springen lässt:
 
-![Bouncing Ball](docs/bouncingball.png)
+| Der springende Ball |
+|:----:|
+| ![Bouncing Ball](./docs/bouncingball.png) |
 
 Der Ball startet in der linken oberen Ecke, fällt dann zu Boden und
 prallt wieder ab, solange er nicht den Bildschirm verlassen hat.
@@ -37,4 +39,6 @@ hieven. Dies können Sie mit dem folgenden Code erreichen:
 `double diff = ball.getY() - (getHeight() - ball.getHeight());`\
 `ball.move(0, -2 * diff);`
 
-![Bouncing Ball in Motion](docs/bouncingBall.gif)
+| Der Ball in Bewegung |
+|:-----:|
+| ![Bouncing Ball in Motion](./docs/bouncingBall.gif) |

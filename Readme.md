@@ -1,4 +1,4 @@
-# U12 | Ball mit Physik
+# U13 | Ball mit Physik
 
 Erstellen Sie eine `GraphicsApp`, die einen Ball von links nach rechts
 über die Zeichenfläche springen lässt:

@@ -36,7 +36,7 @@ Bodens gesprungen ist, wenn Sie eine Kollision bemerken. Wenn dies der
 Fall ist, müssen Sie ihn nach der Kollision wieder über den Boden
 hieven. Dies können Sie mit dem folgenden Code erreichen:
 
-`ball.setYPos(CANVAS_HEIGHT - BALL_RADIUS);`
+`ball.setYPos(CANVAS_HEIGHT - ball.getRadius());`
 
 | Der Ball in Bewegung |
 |:-----:|
